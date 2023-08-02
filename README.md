@@ -21,7 +21,7 @@ Testing framework: Junit 4
   * inputs can be null, if either input is null solution will return false
   
   HashMap Approach:
-  * Code intializes a HashMap of (character, Integer) key-value pair to hold the character count from one input string
+  * Code intializes a HashMap of <character, Integer> key-value pair to hold the character count from one input string
   * Then code traverses other input string and decreases the character count
   * For success scenario for being Anagrams all the count of character left in the hash table must be zero (which will mean both string are made up of same number of characters)
   * If any character count is not zero then code declares input strings to be not anagrams
@@ -33,4 +33,4 @@ Further Notes:
 * If we assume only characters from 'a' - 'z' are allowed, Array approach could also be used to store character count instead of hashmap like below, rest of the logic will remain same:
   int[] charCountArray = new int[26]
 * Theoretically, this approach will also have time complexity of - O(n)
-* Practically this approach could be even faster as hashMaps put operations(hash value calculations) are eliminated
+* Practically this approach could be even faster as hashMaps put/get operations(hash value calculations) are eliminated
