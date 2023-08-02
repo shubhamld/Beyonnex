@@ -30,7 +30,7 @@ Testing framework: Junit 4
   As it traverses once on both strings of length n in separate individual loops
   
 Further Notes:
-* If we assume only characters from 'a' - 'z' are allowed, Array approach could also be used to store character count instead of hashmap like below, rest of the logic will remain same:
+* If we assume only characters from 'a' - 'z' are allowed, Array approach could also be used to store character count instead of hashmap like below, rest of the logic will mostly remain same(other then put part):
   int[] charCountArray = new int[26]
 * Theoretically, this approach will also have time complexity of - O(n)
 * Practically this approach could be even faster as hashMaps put/get operations(hash value calculations) are eliminated
