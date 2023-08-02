@@ -1,4 +1,4 @@
-Anagrams :- Two string are called Anagrams if they both are permutaion of each other, meaning they are made up of same length and same number of characters irrespective of the order
+Anagrams :- Two string are called Anagrams if they both are permutation of each other, meaning they are made up of same length and same number of characters irrespective of the order
 
 File Description:-
  * Anagrams.java - Contains the implementation of the solution for Anagrams problem
@@ -6,11 +6,12 @@ File Description:-
      
 How To Run the project:-
 * Please clone this repository using SSH or HTTP
-* To Run all the tests, run command in terminal from project root directory - 'mvn test' (Made this project using MAVEN build system for extensiblity and readability)
+* To Run all the tests, run command in terminal from project root directory - 'mvn test' (Made this project using MAVEN build system for extensibility and readability)
 * To run a single test: mvn test -Dtest="AnagramsTest#shouldReturnFalseWhenEitherInputStringIsNull"
 
-Implementaion:
-Chose this (HashMap) approach with maven build system because this solution seems to be most performant with easy readability and also could be easily extended
+Implementation:
+Chose this (HashMap) approach with maven build system because this solution seems to be most performant with easy readability and also could be easily extended.
+
 Language used: Java 17
 Testing framework: Junit 4
 
