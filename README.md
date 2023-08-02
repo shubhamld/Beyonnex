@@ -5,7 +5,7 @@ File Description:-
  * AnagramsTest.java - Contains all the Junit tests for the anagrams solution
      
 How To Run the project:-
-* Please clone this repository using SSH or HTTP
+* Please clone this repository using SSH or HTTPS
 * To Run all the tests, run command in terminal from project root directory - 'mvn test' (Made this project using MAVEN build system for extensibility and readability)
 * To run a single test: mvn test -Dtest="AnagramsTest#shouldReturnFalseWhenEitherInputStringIsNull"
 
